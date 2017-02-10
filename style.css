@@ -1,0 +1,67 @@
+h3[name=un] {
+  color: green;
+}
+h3[name=deux] {
+  color: red;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #2C7D9C;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+html {
+  background: url('png/bluegrad.png') repeat-x;
+  font-family: "Trebuchet MS", Sans-Serif;
+}
+div {
+  font-family: "Trebuchet MS", Sans-Serif;
+}
+div { 
+  font-family: "Trebuchet MS", Sans-Serif;
+  font-size: 12px;
+  text-align: left;
+}
+table { 
+  font-family: "Trebuchet MS", Sans-Serif;
+  font-size: 12px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+th {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 8px;
+  background: #b9c9fe url('png/gradhead.png') repeat-x;
+  border-top: 2px solid #d3ddff;
+  border-bottom: 1px solid #fff;
+  color: #039;
+}
+td {
+  padding: 8px;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid #fff;
+  background: #e8edff url('png/gradback.png') repeat-x;
+}
+tfoot tr td {
+  background: #e8edff;
+  font-size: 16px;
+  color: #99c;
+  text-align:center;
+}
+tbody tr:hover td {
+  background: #d0dafd url('png/gradhover.png') repeat-x;
+  color: #339;
+}
+a:hover {
+  text-decoration:underline;
+}
